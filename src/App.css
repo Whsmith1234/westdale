@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+    
+      .btn{
+          background-color:rgba(255,255,255,0.5) !important;
+          margin-top: 1rem;
+      }
+      html{
+        height:100%;
+      }
+      body{
+          color:white;
+          height:100%;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-attachment: fixed;
+          background-repeat: no-repeat; /* Do not repeat the image */
+          background-size: cover;
+          background-image: url("https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?cs=srgb&dl=pexels-joyston-judah-933054.jpg&fm=jpg");
+         
+      }
+      .Ad{
+        align-self: center;
+        align-content: center;
+      }
+      .form{
+        width:100%;
+        max-width: 30rem;
+      }
+      .adlink{
+        margin-right:0px  !important;
+      }
+      .addButton{
+        margin-right:.75rem;
+      }
+      input{
+        color:white;
+      }
+      textarea{
+        color:white;
+      }

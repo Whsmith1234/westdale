@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import {route} from './index'
 
-function App() {
+
+function App() { 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <div>
+        <h1 href="#" class=" center  brand-logo white-text"><span class = "">Westdale Dog Walking</span> </h1>
+        <center>
+          <br></br>
+          <div class="btn black-text" onClick={(e)=>{localStorage.setItem('role','walkee');route("signIn")}}>I want to have my dog walked</div>
+          <div class="btn white black-text" onClick={(e)=>{localStorage.setItem('role','walker');route("signIn")}}>I want to walk dogs</div>
+        </center>     
     </div>
   );
 }
